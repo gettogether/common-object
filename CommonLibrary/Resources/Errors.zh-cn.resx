@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlterRequiredFields" xml:space="preserve">
+    <value>请输入所有必填的字段。</value>
+  </data>
+  <data name="ApplyEmailExists" xml:space="preserve">
+    <value>该邮箱地址的申请正等待审批，请用其他的邮箱！</value>
+  </data>
+  <data name="ApplyLicenseNoExists" xml:space="preserve">
+    <value>该营业执照的申请正等待审核，请用其他的营业执照号！</value>
+  </data>
+  <data name="ChgPwdFailed" xml:space="preserve">
+    <value>修改密码失败！</value>
+  </data>
+  <data name="CompanyEmailExists" xml:space="preserve">
+    <value>该邮箱已被注册！</value>
+  </data>
+  <data name="CompanyLicenseNoExists" xml:space="preserve">
+    <value>该营业执照已注册！</value>
+  </data>
+  <data name="CompanyNotActive" xml:space="preserve">
+    <value>公司（{0}）尚未激活。</value>
+  </data>
+  <data name="CompanySuspended" xml:space="preserve">
+    <value>公司（{0}）已经被停用。</value>
+  </data>
+  <data name="CompanyTypeError" xml:space="preserve">
+    <value>请先选择办公室地点。</value>
+  </data>
+  <data name="EmptyAgentComName" xml:space="preserve">
+    <value>请输入代理者公司名称</value>
+  </data>
+  <data name="EmptyAgentContactPer" xml:space="preserve">
+    <value>请输入代理者联系人</value>
+  </data>
+  <data name="EmptyAgentEmail" xml:space="preserve">
+    <value>请输入代理者电子邮箱地址</value>
+  </data>
+  <data name="EmptyAgentPhone" xml:space="preserve">
+    <value>请输入代理者联系号码</value>
+  </data>
+  <data name="ErrAddRecordMsg" xml:space="preserve">
+    <value>添加记录失败！</value>
+  </data>
+  <data name="ErrAmount" xml:space="preserve">
+    <value>价钱有误</value>
+  </data>
+  <data name="ErrEmail" xml:space="preserve">
+    <value>邮件地址有误</value>
+  </data>
+  <data name="ErrNum" xml:space="preserve">
+    <value>错误的数字格式！</value>
+  </data>
+  <data name="ErrorCity" xml:space="preserve">
+    <value>请输入正确的城市</value>
+  </data>
+  <data name="ErrorCountry" xml:space="preserve">
+    <value>请输入正确的国家</value>
+  </data>
+  <data name="ErrorQty" xml:space="preserve">
+    <value>请输入正确的 {0} 数量</value>
+  </data>
+  <data name="ErrorTraveller" xml:space="preserve">
+    <value>请输入正确的旅客</value>
+  </data>
+  <data name="ErrPhone" xml:space="preserve">
+    <value>无效的电话格式。</value>
+  </data>
+  <data name="ErrSubject" xml:space="preserve">
+    <value>主题不能为空！</value>
+  </data>
+  <data name="ErrUpdateRecordMsg" xml:space="preserve">
+    <value>更新失败！</value>
+  </data>
+  <data name="GroupCodeExist" xml:space="preserve">
+    <value>该权限组代号已经存在!</value>
+  </data>
+  <data name="IndicatesMandatory" xml:space="preserve">
+    <value>必须输入拦位标志</value>
+  </data>
+  <data name="InputInfoRequired" xml:space="preserve">
+    <value>请输入必须的信息</value>
+  </data>
+  <data name="Invalid_date_format" xml:space="preserve">
+    <value>无效的日期格式</value>
+  </data>
+  <data name="Invalid_inputformat" xml:space="preserve">
+    <value>请更正所填信息的格式。</value>
+  </data>
+  <data name="InvalidAgentEmail" xml:space="preserve">
+    <value>无效的代理者电子邮箱地址</value>
+  </data>
+  <data name="InvalidCustomerCode" xml:space="preserve">
+    <value>无效的用户代号。</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>无效的邮箱格式！</value>
+  </data>
+  <data name="InvalidFax" xml:space="preserve">
+    <value>无效的传真格式！</value>
+  </data>
+  <data name="InvalidNewPwd" xml:space="preserve">
+    <value>无效的新密码!</value>
+  </data>
+  <data name="InvalidOldPwd" xml:space="preserve">
+    <value>无效的旧密码!</value>
+  </data>
+  <data name="InvalidPhone" xml:space="preserve">
+    <value>无效的电话号码！</value>
+  </data>
+  <data name="InvalidPriceRange" xml:space="preserve">
+    <value>价钱范围(至)不可以少于价钱范围(由).</value>
+  </data>
+  <data name="InvalidPriceRangeExist" xml:space="preserve">
+    <value>此价钱范围已存在!</value>
+  </data>
+  <data name="IsRequired" xml:space="preserve">
+    <value>请将需要填写的信息填写完整</value>
+  </data>
+  <data name="KillOutString" xml:space="preserve">
+    <value>你的账号在另一地点登录，您被迫下线。&lt;br/&gt;&lt;br/&gt;如果这不是您本人的操作，那么你的密码很可能已经泄露。建议你修改密码。</value>
+  </data>
+  <data name="LoginErrString" xml:space="preserve">
+    <value>登录不正确-请再试一次</value>
+  </data>
+  <data name="LoginIsLock" xml:space="preserve">
+    <value>你的账号因为连续输入三次错误密码已被锁定。</value>
+  </data>
+  <data name="LoginSuspended" xml:space="preserve">
+    <value>你的帐号已经被停用。</value>
+  </data>
+  <data name="NoMatchPwd" xml:space="preserve">
+    <value>重新输入密码与新密码不相符!</value>
+  </data>
+  <data name="NoSchUserInADH" xml:space="preserve">
+    <value>您所输入之电邮地址并没有在Adholidays登记!</value>
+  </data>
+  <data name="PwdLength" xml:space="preserve">
+    <value>密码长度必须多于6个字符.</value>
+  </data>
+  <data name="PwdUpdateFailed" xml:space="preserve">
+    <value>密码更新失败！</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>该域为必须项，请输入值。</value>
+  </data>
+  <data name="SameAsPwd" xml:space="preserve">
+    <value>新密码不能与旧密码相同!</value>
+  </data>
+  <data name="SendEmailRequired" xml:space="preserve">
+    <value>请输入正确的邮箱地址。</value>
+  </data>
+  <data name="TeamCodeExist" xml:space="preserve">
+    <value>该部门编号已存在</value>
+  </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>只能上传*.gif或者*.jpg的图片文件</value>
+  </data>
+  <data name="UserInUsed" xml:space="preserve">
+    <value>你的帐号正在被使用，请稍后再登录。</value>
+  </data>
+</root>
