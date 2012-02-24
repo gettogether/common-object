@@ -1,0 +1,76 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB9DF9E4-32E1-42DA-BCF2-DD43B381166C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\CommonDLL\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataMapping, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config.cs" />
+    <Compile Include="ConnectionHelper.cs" />
+    <Compile Include="Data\CommonBase.cs" />
+    <Compile Include="Data\ConnectionInformation.cs" />
+    <Compile Include="Data\DOBase.cs" />
+    <Compile Include="Data\Interfaces\ICommonBase.cs" />
+    <Compile Include="Data\Interfaces\IDOBase.cs" />
+    <Compile Include="Data\Interfaces\IPagingResult.cs" />
+    <Compile Include="Data\Interfaces\IStoreProcBase.cs" />
+    <Compile Include="Data\PagingResult.cs" />
+    <Compile Include="Data\StoreProcBase.cs" />
+    <Compile Include="Data\StoreProcInformation.cs" />
+    <Compile Include="Data\UOListBaseCollection.cs" />
+    <Compile Include="Data\UOBase.cs" />
+    <Compile Include="Data\Interfaces\IUOBase.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="SQL\Delete.cs" />
+    <Compile Include="SQL\Insert.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlScriptHandler.cs" />
+    <Compile Include="SqlUtil.cs" />
+    <Compile Include="SQL\Select.cs" />
+    <Compile Include="SQL\Update.cs" />
+    <Compile Include="Stater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SQL\sp_Paging.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
